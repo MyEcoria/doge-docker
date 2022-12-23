@@ -8,4 +8,4 @@ ADD init.sh /
 EXPOSE 22556
 ENTRYPOINT ["/bin/bash"]
 CMD ["/init.sh"]
-LABEL name="dogecoin-node" version="1.2" description="Dogecoin fullnode container based off Debian"
+LABEL name="dogecoin-node" version="1.14.6" description="Dogecoin fullnode container based off Debian"
